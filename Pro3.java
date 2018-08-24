@@ -11,7 +11,7 @@ public class Pro3 implements Runnable
 		Pro3 p = new Pro3();
 		Thread th1 = new Thread(p);
 		
-		th1.start();
+		System.out.println("Hi");
 		
 		Thread th2 = new Thread(new Demo());
 		th2.start();
@@ -39,7 +39,7 @@ public class Pro3 implements Runnable
 
 	}
 
-	
+	// Hello welcome to Git Hub
 }
 
 
